@@ -1,0 +1,25 @@
+{
+    "name": "versicode/algorithms",
+    "description": "PHP 5.4+ based algorithms",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "versicode",
+            "email": "versicode@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Versicode\\Algorithms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Versicode\\Algorithms\\Tests\\": "tests/"
+        }
+    }
+}
