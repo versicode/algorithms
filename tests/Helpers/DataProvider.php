@@ -15,4 +15,19 @@ class DataProvider
             ]
         ];
     }
+
+    public static function findMinProvider()
+    {
+        return [
+            'firstElementSmallest' => [
+                [2, 8, 5, 19], 0
+            ],
+            'middleElementSmallest' => [
+                [9, 8, 5, 19], 2
+            ],
+            'lastElementSmallest' => [
+                [6, 8, 5, 2], 3
+            ]
+        ];
+    }
 }

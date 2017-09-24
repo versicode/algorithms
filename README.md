@@ -1,7 +1,9 @@
 # PHP Algorithms
 *Number of algorithms made using php.*
 ## What algorithms included?
-- Bubble sort
+#### Sorting:
+ - Bubble sort
+ - Selection sort
 
 ## Requirements
 PHP 5.4.0+

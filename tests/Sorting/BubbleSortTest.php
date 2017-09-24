@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Versicode\Algorithms\BubbleSort;
+use Versicode\Algorithms\Sorting\BubbleSort;
 use Versicode\Algorithms\Tests\Helpers\PHPUnitUtils;
 
 class BubbleSortTest extends TestCase
