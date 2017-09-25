@@ -4,6 +4,7 @@
 #### Sorting:
  - Bubble sort
  - Selection sort
+ - Selection sort in-place
 
 ## Requirements
 PHP 5.4.0+

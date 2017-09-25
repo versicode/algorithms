@@ -9,22 +9,22 @@ class SelectionSortTest extends TestCase
     /**
      * @var SelectionSort
      */
-    public $s;
+    public $object;
 
     function setUp()
     {
-        $this->s = new SelectionSort();
+        $this->object = new SelectionSort();
     }
 
     /**
-     * @param array $unsortedArray
      * @param array $sortedArray
+     * @param array $unsortedArray
      *
      * @dataProvider Versicode\Algorithms\Tests\Helpers\DataProvider::sortingAlgorithmProvider
      */
-    function testSelectionSortWorking($unsortedArray, $sortedArray)
+    function testSelectionSortWorking($sortedArray, $unsortedArray)
     {
-        $this->assertEquals($this->s->sort($unsortedArray), $sortedArray);
+        $this->assertEquals($sortedArray, $this->object->sort($unsortedArray));
     }
 
     /**
@@ -35,7 +35,7 @@ class SelectionSortTest extends TestCase
      */
     function testFindMinWorking($array, $index)
     {
-        $this->assertEquals(PHPUnitUtils::callMethod($this->s, 'findMinIndex', [$array]), $index);
+        $this->assertEquals($index, PHPUnitUtils::callMethod($this->object, 'findMinIndex', [$array]));
     }
 
 }

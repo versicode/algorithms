@@ -1,18 +1,18 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Versicode\Algorithms\Sorting\BubbleSort;
+use Versicode\Algorithms\Sorting\SelectionSortSwap;
 
-class BubbleSortTest extends TestCase
+class SelectionSortSwapTest extends TestCase
 {
     /**
-     * @var BubbleSort
+     * @var SelectionSortSwap
      */
     public $object;
 
     function setUp()
     {
-        $this->object = new BubbleSort();
+        $this->object = new SelectionSortSwap();
     }
 
     /**
@@ -21,7 +21,7 @@ class BubbleSortTest extends TestCase
      *
      * @dataProvider Versicode\Algorithms\Tests\Helpers\DataProvider::sortingAlgorithmProvider
      */
-    function testIsBubbleSortWorking($sortedArray, $unsortedArray)
+    function testSelectionSortWorking($sortedArray, $unsortedArray)
     {
         $this->assertEquals($sortedArray, $this->object->sort($unsortedArray));
     }

@@ -8,10 +8,10 @@ class DataProvider
     {
         return [
             'positiveNumbers' => [
-                [3, 5, 6, 2, 1], [1, 2, 3, 5, 6]
+                [1, 2, 3, 5, 6], [3, 5, 6, 2, 1]
             ],
             'positiveWithNegativeNumbers' => [
-                [8, 5, 1, -4, 9], [-4, 1, 5, 8, 9]
+                [-4, 1, 5, 8, 9], [8, 5, 1, -4, 9]
             ]
         ];
     }
