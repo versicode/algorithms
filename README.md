@@ -8,6 +8,9 @@
  - Insertion sort
  - Quicksort
 
+#### Recursive:
+ - Factorial find
+
 ## Requirements
 PHP 5.4.0+
 
