@@ -10,6 +10,7 @@
 
 #### Recursive:
  - Factorial find
+ - Find max value from array
 
 ## Requirements
 PHP 5.4.0+

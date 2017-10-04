@@ -30,4 +30,19 @@ class DataProvider
             ]
         ];
     }
+
+    public static function findMaxValueProvider()
+    {
+        return [
+            'firstElementBiggest' => [
+                [8, 3, 6, 5, 4], 8
+            ],
+            'middleElementBiggest' => [
+                [3, 7, 8, 5, 4], 8 
+            ],
+            'lastElementBiggest' => [
+                [6, 3, 5, 4, 8], 8
+            ]
+        ];
+    }
 }
