@@ -14,6 +14,7 @@ class FactorialTest extends TestCase
     {
         $this->object = new Factorial();
     }
+
     function testFactorialWokring()
     {
         $this->assertEquals($this->object->calculate(1), 1);

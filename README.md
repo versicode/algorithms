@@ -12,6 +12,9 @@
  - Factorial find
  - Find max value from array
 
+#### Graph:
+ - Breadth-first search
+
 ## Requirements
 PHP 5.4.0+
 
