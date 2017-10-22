@@ -14,6 +14,7 @@
 
 #### Graph:
  - Breadth-first search
+ - Breadth-first search using Standard PHP Library
 
 ## Requirements
 PHP 5.4.0+
